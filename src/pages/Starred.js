@@ -1,10 +1,11 @@
 import React from "react";
+import MainPageLayout from "../components/MainPageLayout";
 
 function Starred() {
   return (
-    <div>
+    <MainPageLayout>
       <h1>This is Starred Page</h1>
-    </div>
+    </MainPageLayout>
   );
 }
 

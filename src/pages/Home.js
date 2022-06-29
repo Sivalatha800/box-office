@@ -1,15 +1,8 @@
 import React from "react";
+import MainPageLayout from "../components/MainPageLayout";
 
 function Home() {
-  return (
-    <div>
-      <h1>This is home page Headding</h1>
-      <h3>
-        This is home page text data, this is sample data to test the route
-        working correctly or not
-      </h3>
-    </div>
-  );
+  return <MainPageLayout>This is home page Headding</MainPageLayout>;
 }
 
 export default Home;
